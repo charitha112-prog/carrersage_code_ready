@@ -1,0 +1,10 @@
+[
+ {"id":"q1","category":"Technical","topic":"Algorithms","company":"General","difficulty":"Easy","question":"How would you find the first non-repeating character in a string?"},
+ {"id":"q2","category":"Technical","topic":"Databases","company":"General","difficulty":"Medium","question":"Explain the trade-offs between a hash index and a B-tree index."},
+ {"id":"q3","category":"Technical","topic":"System Design","company":"General","difficulty":"Medium","question":"How would you design a rate limiter for a public API?"},
+ {"id":"q4","category":"Behavioral","topic":"Behavioral","company":"General","difficulty":"Medium","question":"Tell me about a time you received difficult feedback and what changed afterward."},
+ {"id":"q5","category":"Behavioral","topic":"Behavioral","company":"Amazon","difficulty":"Medium","question":"Describe a time you took ownership of a problem outside your assigned work."},
+ {"id":"q6","category":"Technical","topic":"Algorithms","company":"Google","difficulty":"Hard","question":"How would you find the shortest path in a large weighted graph?"},
+ {"id":"q7","category":"Technical","topic":"Systems","company":"Microsoft","difficulty":"Medium","question":"How do you keep a service reliable during a dependency outage?"},
+ {"id":"q8","category":"Resume-based","topic":"Resume Projects","company":"General","difficulty":"Medium","question":"Tell me about a project you are proud of, your contribution, and its measurable impact."}
+]
