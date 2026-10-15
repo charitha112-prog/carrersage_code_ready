@@ -1,0 +1,17 @@
+services:
+  careersage:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      CAREERSAGE_DATA_DIR: /data
+      CORS_ORIGINS: ${CORS_ORIGINS:-*}
+      LINKEDIN_CLIENT_ID: ${LINKEDIN_CLIENT_ID:-}
+      LINKEDIN_CLIENT_SECRET: ${LINKEDIN_CLIENT_SECRET:-}
+      LINKEDIN_REDIRECT_URI: ${LINKEDIN_REDIRECT_URI:-http://localhost:8000/api/linkedin/callback}
+      CAREERSAGE_FRONTEND_URL: ${CAREERSAGE_FRONTEND_URL:-http://localhost:8000/}
+    volumes:
+      - careersage-data:/data
+    restart: unless-stopped
+volumes:
+  careersage-data:
